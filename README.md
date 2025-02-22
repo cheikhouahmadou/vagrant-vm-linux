@@ -1,5 +1,7 @@
 "# vagrant-vm-linux" 
+
 Création de VM Linux avec vagrant
+
 Ce fichier Vagrantfile configure une machine virtuelle avec Vagrant et VirtualBox.
 Il utilise l'image de base Ubuntu 14.04 64-bit (nommée ubuntu/trusty64). 
 La machine est configurée pour ne pas vérifier les mises à jour de l'image et 
