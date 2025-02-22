@@ -11,15 +11,18 @@ synchronise un dossier de l'hôte ./tomcatwebapps avec le dossier /opt/tomcat/we
 VM pour partager des fichiers.
 La configuration de VirtualBox inclut l'activation de l'interface graphique pour la VM, 
 un nom personnalisé serveurweb-tomcat, et une allocation de 1 Go de RAM.
+
 <img width="552" alt="c1" src="https://github.com/user-attachments/assets/0712afc0-d5a7-4a6b-a37d-e668f3ff8bf7" />
 
 La commande vagrant validate sert à vérifier si le fichier Vagrantfile est syntaxiquement 
 correct et s'il n'y a pas d'erreurs évidentes dans la configuration de la machine virtuelle. 
 Cependant, cette commande ne démarre pas la machine virtuelle ni ne crée d'instances. Elle permet 
 simplement de s'assurer que la configuration est valide avant d'exécuter des commandes comme vagrant up ou vagrant provision.
+
 <img width="460" alt="c2" src="https://github.com/user-attachments/assets/55e0a18c-3422-4e69-a18d-91691949c551" />
 
 La commande vagrant up est utilisée pour démarrer la machine virtuelle définie dans le fichier Vagrantfile.
+
 <img width="958" alt="c3" src="https://github.com/user-attachments/assets/753dd28d-28d7-4706-9a87-2de59a6a68b8" />
 
 La commande vagrant ssh permet de se connecter à la machine virtuelle (VM) en utilisant SSH 
