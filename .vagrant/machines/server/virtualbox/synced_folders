@@ -1,0 +1,1 @@
+{"virtualbox":{"/opt/tomcat/webapps":{"guestpath":"/opt/tomcat/webapps","hostpath":"C:/SECK/Master_2/DEV_OPS/devoir-devops/vagrant_VM_Linux/tomcatwebapps","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"C:/SECK/Master_2/DEV_OPS/devoir-devops/vagrant_VM_Linux","disabled":false,"__vagrantfile":true}}}
